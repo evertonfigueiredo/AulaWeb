@@ -1,6 +1,12 @@
+body{
+    margin: 20px;
+}
+
 .banner{
     height: 300px;
     background-color: red;
+    margin-bottom: 30px;
+    border-radius: 20px;
 }
 /* Antigo img */
 .perfil{ 
@@ -17,9 +23,18 @@
     height: 150px;
     width: 20%;
     margin: auto;
+    border-radius: 20px;
 }
 .foto{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 20px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+
+.ml-20{
+    margin-left: 20px;
 }
